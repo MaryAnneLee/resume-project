@@ -1,6 +1,5 @@
 @import url('http://fonts.googleapis.com/css?family=Roboto');
 
-
 br {
   display: block;
   line-height: 1.6em;
@@ -8,14 +7,10 @@ br {
 
 
 
-
-
-
 ol,
 ul {
   list-style: none;
 }
-
 
 input,
 textarea {
@@ -28,12 +23,10 @@ textarea {
   outline: none;
 }
 
-
 blockquote,
 q {
   quotes: none;
 }
-
 
 blockquote:before,
 blockquote:after,
@@ -43,18 +36,15 @@ q:after {
   content: none;
 }
 
-
 strong,
 b {
   font-weight: bold;
 }
 
-
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
 
 img {
   border: 0;
@@ -63,11 +53,7 @@ img {
 
 
 
-
-
-
 /* page structure */
-
 
 #search-area {
   display: block;
@@ -83,12 +69,10 @@ img {
   border-radius: 4px;
 }
 
-
 #gh-api-data {
   display: block;
   padding: 25px 0;
 }
-
 
 #loader {
   display: block;
@@ -98,10 +82,7 @@ img {
 }
 
 
-
-
 /* page content styles */
-
 
 .small-name {
   font-size: 0.75em;
@@ -109,19 +90,16 @@ img {
   font-style: italic;
 }
 
-
 .avi {
   float: left;
   margin-right: 7px;
   margin-bottom: 7px;
 }
 
-
 .avi img {
   border: 1px solid #ccc;
   padding: 3px;
 }
-
 
 .repo-list {
   display: block;
@@ -129,16 +107,13 @@ img {
   width: 100%;
 }
 
-
 .repo-list ul {
   font-size: 1.2em;
 }
 
-
 .repo-list ul li {
   display: block;
 }
-
 
 .repo-list ul li a {
   font-weight: bold;
@@ -162,7 +137,6 @@ img {
   background-image: linear-gradient(top, #5597d8, #3673af);
 }
 
-
 .repo-list ul li a:hover {
   background-color: #396895;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#4b87c2), to(#396895));
@@ -173,22 +147,18 @@ img {
   background-image: linear-gradient(top, #4b87c2, #396895);
 }
 
-
 .repo-list ul li a:active {
   -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.25);
   box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.25);
 }
 
-
 .repo-list ul li a span {
   font-family: "Courier New", Courier, "Lucida Typewriter", monospace;
   font-size: 0.9em;
 }
 
-
 /* input field */
-
 
 #gh-username {
   display: block;
@@ -198,7 +168,6 @@ img {
   max-width: 550px;
   margin-bottom: 15px;
 }
-
 
 #gh-submit {
   display: inline-block;
@@ -222,7 +191,6 @@ img {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
 }
 
-
 #gh-submit:hover {
   background-color: #dadada;
   background-image: -webkit-linear-gradient(#eaeaea, #dadada);
@@ -233,7 +201,6 @@ img {
   border-color: #ccc #ccc #b5b5b5;
 }
 
-
 #gh-submit:active {
   background-color: #dadada;
   background-image: none;
@@ -242,5 +209,4 @@ img {
   -moz-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.25);
   box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.25);
 }
-
 
